@@ -21,7 +21,7 @@ export default function Input({
         onClick={handleAddTodo}
         className="bg-zinc-900 dark:bg-zinc-100 text-zinc-100 dark:text-zinc-900 px-3 py-2 rounded-lg "
       >
-        Add Todo
+        Add <span className="hidden sm:block">Todo</span>
       </button>
     </div>
   );

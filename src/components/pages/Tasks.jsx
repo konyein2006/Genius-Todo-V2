@@ -18,7 +18,7 @@ export default function Tasks({
   let filterTodos = searchTodos ? searchTodos : todos;
   console.log(filterTodos);
   return (
-    <>
+    <div className="flex flex-col flex-1 min-h-0">
       <div className=" font-semibold flex items-center gap-5">
         <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl">
           {query ? `Search: ${query}` : `All Todo`}
@@ -45,6 +45,6 @@ export default function Tasks({
           <div className="mt-5">Please add new todo.</div>
         )}
       </div>
-    </>
+    </div>
   );
 }

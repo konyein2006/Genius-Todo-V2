@@ -3,7 +3,7 @@ import Glogo from "../assets/fancy-letter-g-icon.svg";
 
 export function Sidebar({ theme }) {
   return (
-    <div className="flex flex-col border-r border-r-zinc-200 dark:border-r-zinc-800 w-[15%] sm:w-[25%] md:w-[23%] lg:w-[20%] h-full  px-3 sm:px-3 md:px-4 lg:px-5">
+    <div className="flex flex-col border-r border-r-zinc-200 dark:border-r-zinc-800 w-[20%] sm:w-[25%] md:w-[23%] lg:w-[20%] h-full  px-3 sm:px-3 md:px-4 lg:px-5">
       <Link to="/" className={`flex justify-center items-center my-5 `}>
         <img
           src={Glogo}

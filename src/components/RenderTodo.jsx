@@ -16,7 +16,7 @@ export default function RenderTodo({
   handleCorrection,
 }) {
   return (
-    <div className="flex justify-between items-center gap-3 sm:gap-4 md:gap-5 border border-zinc-500 rounded-xl px-3 sm:px-4 md:px-5 py-4 my-5 hover:shadow-xl">
+    <div className="flex justify-between items-center gap-3 sm:gap-4 md:gap-5 border border-zinc-500 rounded-xl px-3 sm:px-4 md:px-5 py-3 sm:py-4 my-5 hover:shadow-xl w-full">
       <button onClick={() => handleComplete(todo.id)}>
         {todo.complete ? (
           <FaCheckCircle />
