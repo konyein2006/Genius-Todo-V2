@@ -19,7 +19,7 @@ export function Home({
   searchTodos,
 }) {
   return (
-    <div className="p-3 sm:p-4 md:p-5 lg:p-6 max-w-3xl w-full mx-auto flex flex-col justify-between flex-1 min-h-0 gap-3">
+    <div className="p-3 sm:p-4 md:p-5 lg:p-6 max-w-3xl w-full mx-auto flex flex-col gap-3 pb-24">
       {/* Wrapper to pass flex-1 into child routes */}
       <div className="flex-1 flex flex-col min-h-0 overflow-hidden">
         <Routes>

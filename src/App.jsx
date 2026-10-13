@@ -113,7 +113,7 @@ function App() {
   return (
     <div className="h-dvh flex bg-white dark:bg-black text-black dark:text-white ">
       <Sidebar theme={theme} />
-      <div className="flex-1 flex flex-col h-full overflow-hidden">
+      <div className="fflex-1 flex flex-col min-h-screen">
         <Navbar
           handleTheme={handleTheme}
           inputRef={inputRef}
