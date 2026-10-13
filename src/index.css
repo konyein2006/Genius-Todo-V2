@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.hover:hover {
+  filter: brightness(0) saturate(100%) invert(80%) sepia(47%) saturate(1478%)
+    hue-rotate(342deg) brightness(101%) contrast(97%);
+}
+
+.svg-white {
+  filter: brightness(0) invert(1);
+  transition: all 0.4s;
+}
+
+.svg-white:hover {
+  filter: brightness(0) saturate(100%) invert(80%) sepia(47%) saturate(1478%)
+    hue-rotate(342deg) brightness(101%) contrast(97%);
+}
